@@ -1,0 +1,42 @@
+
+```bash
+amlanalok@Mac ~ % brew install composer
+
+
+amlanalok@Mac ~ % composer --version
+Composer version 2.8.12 2025-09-19 13:41:59
+PHP version 8.4.13 (/opt/homebrew/Cellar/php/8.4.13/bin/php)
+Run the "diagnose" command to get more detailed diagnostics output.
+
+
+amlanalok@Mac ~ % composer global require laravel/installer
+
+
+nano ~/.zprofile
+
+# Add below line to .zprofile and save it.
+export PATH="$PATH:$HOME/.composer/vendor/bin"
+
+# Then open new termianl and verify laravel
+amlanalok@Mac ~ % laravel --version
+Laravel Installer 5.20.0
+
+
+amlanalok@Mac Laravel % laravel new learn-laravel-01-2025
+
+   _                               _
+  | |                             | |
+  | |     __ _ _ __ __ ___   _____| |
+  | |    / _` |  __/ _` \ \ / / _ \ |
+  | |___| (_| | | | (_| |\ V /  __/ |
+  |______\__,_|_|  \__,_| \_/ \___|_|
+
+
+
+amlanalok@Mac qcompliance-api % composer install
+
+
+
+
+
+```
